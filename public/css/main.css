@@ -1,0 +1,109 @@
+.header {
+    min-height: 20vh;
+    background: #3E51B5;
+    color: #fff;
+}
+.header h1 {
+    font-size: 2em;
+}
+.linkIcons a {
+    color: #fff;
+    font-size: 0.5em;
+}
+.linkIcons {
+    float: right;
+}
+.linkIcons li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 10px 20px 10px;
+}
+.app {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+    padding: 0 30px;
+    background: #E8E8EC;
+}
+.site-footer {
+    background: orange;
+    padding: 5px 30px;
+}
+.newsList {
+    border-radius: 5px;
+    position: relative;
+    bottom: 2em;
+    background: #FFFFFF;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 80%;
+    list-style: none;
+
+}
+.newsImgs {
+    list-style: none;
+    padding: 0;
+}
+.newsImgs li {
+    display: inline;
+    margin-right: 10px;
+}
+.newsTitle {
+    margin: 0;
+}
+.userPic {
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.navButtons {
+    position: absolute;
+    top: 13vh;
+    right: 11vw;
+}
+.navButtons a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.imageGallery {
+    position: relative;
+    bottom: 2em;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .linkIcons {
+        float: right;
+    }
+    .linkIcons a {
+        font-size: 1em;
+    }
+    .newsList {
+        max-width: 60%;
+    }
+    .newsList {
+        position: relative;
+        bottom: 5em;
+        background: #FFFFFF;
+        padding: 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        max-width: 80%;
+        list-style: none;
+    }
+    .header {
+        min-height: 25vh;
+    }
+    .header h1 {
+        font-size: 3em;
+    }
+    .imageGallery {
+        bottom: 5em;
+    }
+}
